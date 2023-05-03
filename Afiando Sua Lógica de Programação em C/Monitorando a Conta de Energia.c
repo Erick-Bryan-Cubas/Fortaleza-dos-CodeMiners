@@ -11,9 +11,9 @@ int main(){
     scanf("%d %d %d", &consumo1, &consumo2, &consumo3);
 
     //TODO: Calcule a média de consumo e a imprima com duas casas decimais.
-    media = (consumo1+consumo2+consumo3)/3;
-
-    printf("A média de consumo enérgetico das três máquinas é: %.2f", media);
+    
+    media = (consumo1+consumo2+consumo3)/3.0;
+    printf("%.2f", media);
 
     return 0;
 }
